@@ -1,0 +1,39 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: 'Deliforce web test Lambda for PIpeline Integration'
+Globals:
+  Function:
+    Environment:
+      Variables:
+        bucketName: testuser-constant
+        constantFileName: constant.json
+Resources:
+
+  DeliforcebackgroundjobMethod:
+     Type: AWS::Serverless::Function
+     Properties:
+       FunctionName: backGroundjobasdfg
+       Timeout: 300
+       Handler: index.handler
+       Runtime: nodejs6.10
+       CodeUri: backGroundjob
+       Policies: AWSLambdaFullAccess
+       Role: arn:aws:iam::120107595195:role/favas-poc
+       
+
+  DeliforcebackgroundjobtwoMethod:
+     Type: AWS::Serverless::Function
+     Properties:
+       FunctionName: smsugfxasdfgh
+       Timeout: 300
+       Handler: index.handler
+       Runtime: nodejs6.10
+       CodeUri: sms
+       Policies: AWSLambdaFullAccess
+       Role: arn:aws:iam::120107595195:role/favas-poc
+       
+  
+  
+  
+
+  
