@@ -1,4 +1,4 @@
-let AWS = require('aws-sdk');
+//let AWS = require('aws-sdk');
 const getConstant = require('./constant')();
 //Favas`
 //console.log("Edit")
