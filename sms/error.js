@@ -4,7 +4,7 @@ module.exports = {
     SERVER_ERROR: 500,
     AUTH: 403,
     BAD_REQUEST: 400,  // no body or query string if it is mandatory
-
+//cbnm,
     //fields
     EMAIL_INVALID: 406,
     PHONE_INVALID: 435,
