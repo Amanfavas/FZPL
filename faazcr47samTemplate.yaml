@@ -5,7 +5,7 @@ Globals:
   Function:
     Environment:
       Variables:
-        bucketName: testuser-constants
+        bucketName: testuser-constant
         constantFileName: constant.json
 Resources:
 
