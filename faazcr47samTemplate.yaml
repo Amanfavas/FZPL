@@ -12,7 +12,7 @@ Resources:
   DeliforcebackgroundjobMethod:
      Type: AWS::Serverless::Function
      Properties:
-       FunctionName: backGroundjobasdfg
+       FunctionName: backGroundjob
        Timeout: 300
        Handler: index.handler
        Runtime: nodejs6.10
@@ -24,7 +24,7 @@ Resources:
   DeliforcebackgroundjobtwoMethod:
      Type: AWS::Serverless::Function
      Properties:
-       FunctionName: smsugfxasdfgh
+       FunctionName: sms
        Timeout: 300
        Handler: index.handler
        Runtime: nodejs6.10
