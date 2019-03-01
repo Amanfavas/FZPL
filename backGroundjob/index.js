@@ -1,6 +1,4 @@
-//FavasAman
-//24/01/2019
-//Faaz
+//01stMarch
 let cb;
 // function callback(err,data) {
 //     console.log(err,data);

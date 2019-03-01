@@ -6,6 +6,7 @@ const AWS = require('aws-sdk');
 //   region: 'ap-south-1'
 // });
 //Del
+//console.log("Friday")
 AWS.config.update({correctClockSkew: true});
 let constants;
 module.exports = (function () {

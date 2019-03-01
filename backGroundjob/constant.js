@@ -5,6 +5,7 @@ const AWS = require('aws-sdk');
 //   "secretAccessKey": "",
 //   region: 'ap-south-1'
 // });
+//console.log(dry)
 AWS.config.update({correctClockSkew: true});
 let constants;
 module.exports = (function () {
