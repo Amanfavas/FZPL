@@ -5,7 +5,7 @@ const AWS = require('aws-sdk');
 //   "secretAccessKey": "",
 //   region: 'ap-south-1's
 // });
-//console.log(3rdMarch)
+
 AWS.config.update({correctClockSkew: true});
 let constants;
 module.exports = (function () {
@@ -24,7 +24,7 @@ module.exports = (function () {
         Bucket: process.env.bucketName, // your bucket name,
         Key: process.env.constantFileName // path to the object you're looking for
       };
-//console.log(3rdMarch)
+
       s3.getObject(getParams, function (err, data) {
         // Handle any error and exit
         if (err) {
